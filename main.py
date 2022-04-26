@@ -14,8 +14,8 @@ if __name__ == "__main__":
     con = input('Ingrese la contraseña: ')
     objeto = Email(ID, dom, tipo, con)
 
-    print('\nEstimado <{}>'.format(nombre))
-    print('Te enviaremos tus mensajes a la direccion <{}>\n'.format(objeto.retornaEmail()))
+    print('Estimado {}'.format(nombre))
+    print('Te enviaremos tus mensajes a la direccion {}'.format(objeto.retornaEmail()))
     print("Modificar contraseña".center(30, '-'))
     contra = input("Ingrese la contraseña actual: ")
     con = objeto.comprobar(contra)
