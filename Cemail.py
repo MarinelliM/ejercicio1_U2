@@ -27,13 +27,12 @@ class Email:
             condicion = True
             return condicion
         else:
-            print("Las contraseñas no son iguales")
+            print('Las contraseñas no son iguales')
 
     def modificar(self, nueva):
         self.__con = nueva
-        print("Se modifico con exito".center(30, '-'))
+        print('Se modifico con exito'.center(30, '-'))
 
-    @staticmethod
     def crearCuenta(direc):
         c = direc.split("@")
         c1 = c[1].split(".")
