@@ -19,9 +19,6 @@ class Email:
     def getDominio(self):
         return self.__dominio
 
-    """def mostrar(self):
-        print(f'Dominio: {self.__dominio}')
-    """
     def getContra(self):
         return self.__con
 
